@@ -1,10 +1,10 @@
-<!DOCTYPE html><html lang="zh_CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Floyd拓展：找最小圈 | 羊歌の博客</title><meta name="keywords" content="算法,求最短路,Floyd"><meta name="author" content="ZZYGOGOGO"><meta name="copyright" content="ZZYGOGOGO"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="程序伊始，某个结点a[i][i]的值是INF，但是运行完之后，其值变为a[i][i]&#x3D;a[i][u]+a[u][v]+…+a[v][i],这是什么情况呢？其实这就是从起点出发，在图上绕了一个最小圈的路径。还是用一道例题来说明算法[http:&#x2F;&#x2F;acm.hdu.edu.cn&#x2F;showproblem.php?pid&#x3D;1599]Problem Description在每年的校赛里，所有进入决赛的同学都会">
+<!DOCTYPE html><html lang="CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Floyd拓展：找最小圈 | 羊歌の博客</title><meta name="keywords" content="算法,求最短路,Floyd"><meta name="author" content="ZZYGOGOGO"><meta name="copyright" content="ZZYGOGOGO"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="程序伊始，某个结点a[i][i]的值是INF，但是运行完之后，其值变为a[i][i]&#x3D;a[i][u]+a[u][v]+…+a[v][i],这是什么情况呢？其实这就是从起点出发，在图上绕了一个最小圈的路径。还是用一道例题来说明算法[http:&#x2F;&#x2F;acm.hdu.edu.cn&#x2F;showproblem.php?pid&#x3D;1599]Problem Description在每年的校赛里，所有进入决赛的同学都会">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Floyd拓展：找最小圈">
 <meta property="og:url" content="http://sheepsong.cn/2021/05/07/Floyd%E6%8B%93%E5%B1%95%EF%BC%9A%E6%89%BE%E6%9C%80%E5%B0%8F%E5%9C%88/index.html">
 <meta property="og:site_name" content="羊歌の博客">
 <meta property="og:description" content="程序伊始，某个结点a[i][i]的值是INF，但是运行完之后，其值变为a[i][i]&#x3D;a[i][u]+a[u][v]+…+a[v][i],这是什么情况呢？其实这就是从起点出发，在图上绕了一个最小圈的路径。还是用一道例题来说明算法[http:&#x2F;&#x2F;acm.hdu.edu.cn&#x2F;showproblem.php?pid&#x3D;1599]Problem Description在每年的校赛里，所有进入决赛的同学都会">
-<meta property="og:locale" content="zh_CN">
+<meta property="og:locale">
 <meta property="og:image" content="http://sheepsong.cn/img/3.jpg">
 <meta property="article:published_time" content="2021-05-07T08:17:16.000Z">
 <meta property="article:modified_time" content="2021-05-17T12:09:30.586Z">
