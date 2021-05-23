@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://sheepsong.cn/2021/05/23/%E8%93%9D%E6%A1%A5%E6%9D%AF%E7%9C%9F%E9%A2%98%EF%BC%9A%E6%89%A9%E6%95%A3(BFS)/</loc>
+    
+    <lastmod>2021-05-23</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://sheepsong.cn/2021/05/23/%E8%93%9D%E6%A1%A5%E6%9D%AF%E7%9C%9F%E9%A2%98%EF%BC%9A%E7%8E%A9%E5%85%B7%E8%9B%87(DFS)/</loc>
     
     <lastmod>2021-05-23</lastmod>
@@ -10,13 +17,6 @@
   
   <url>
     <loc>http://sheepsong.cn/2021/05/23/%E5%B8%B8%E7%94%A8%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%A4%8D%E4%B9%A0/</loc>
-    
-    <lastmod>2021-05-23</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://sheepsong.cn/2021/05/23/%E8%93%9D%E6%A1%A5%E6%9D%AF%E7%9C%9F%E9%A2%98%EF%BC%9A%E6%89%A9%E6%95%A3(BFS)/</loc>
     
     <lastmod>2021-05-23</lastmod>
     
@@ -201,6 +201,13 @@
   
   <url>
     <loc>http://sheepsong.cn/tags/BFS/</loc>
+    <lastmod>2021-05-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://sheepsong.cn/tags/DFS/</loc>
     <lastmod>2021-05-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
