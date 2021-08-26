@@ -2,6 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://sheepsong.cn/list/eco/index.html</loc>
+    
+    <lastmod>2021-08-26</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://sheepsong.cn/list/bestSell/index.html</loc>
+    
+    <lastmod>2021-08-26</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://sheepsong.cn/list/cs/index.html</loc>
+    
+    <lastmod>2021-08-26</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://sheepsong.cn/books/index.html</loc>
+    
+    <lastmod>2021-08-26</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://sheepsong.cn/2021/08/08/C-%E5%9F%BA%E7%A1%80%E5%A4%8D%E4%B9%A0/</loc>
     
     <lastmod>2021-08-08</lastmod>
@@ -93,13 +121,6 @@
   </url>
   
   <url>
-    <loc>http://sheepsong.cn/books/index.html</loc>
-    
-    <lastmod>2021-05-24</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://sheepsong.cn/tools/index.html</loc>
     
     <lastmod>2021-05-24</lastmod>
@@ -157,13 +178,6 @@
   
   <url>
     <loc>http://sheepsong.cn/movies/index.html</loc>
-    
-    <lastmod>2021-05-22</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://sheepsong.cn/Gallery/secret/index.html</loc>
     
     <lastmod>2021-05-22</lastmod>
     
