@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Python打包神器pyinstaller简易实用指南</title>
+      <link href="2021/09/05/Python%E6%89%93%E5%8C%85%E7%A5%9E%E5%99%A8pyinstaller%E7%AE%80%E6%98%93%E5%AE%9E%E7%94%A8%E6%8C%87%E5%8D%97/"/>
+      <url>2021/09/05/Python%E6%89%93%E5%8C%85%E7%A5%9E%E5%99%A8pyinstaller%E7%AE%80%E6%98%93%E5%AE%9E%E7%94%A8%E6%8C%87%E5%8D%97/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="pyinstaller-是一款可以打包-py为-exe-的实用工具"><a href="#pyinstaller-是一款可以打包-py为-exe-的实用工具" class="headerlink" title="pyinstaller 是一款可以打包.py为.exe 的实用工具"></a>pyinstaller 是一款可以打包.py为.exe 的实用工具</h3><h3 id="这里给大家介绍一些常用的功能"><a href="#这里给大家介绍一些常用的功能" class="headerlink" title="这里给大家介绍一些常用的功能"></a>这里给大家介绍一些常用的功能</h3><h3 id="首先，安装pyinstaller插件："><a href="#首先，安装pyinstaller插件：" class="headerlink" title="首先，安装pyinstaller插件："></a>首先，安装pyinstaller插件：</h3><p>————————————————————————————</p><h2 id="1、快速体验"><a href="#1、快速体验" class="headerlink" title="1、快速体验"></a>1、快速体验</h2><h4 id="在终端中输入"><a href="#在终端中输入" class="headerlink" title="在终端中输入"></a>在终端中输入</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install pyinstaller</span><br></pre></td></tr></table></figure><h4 id="然后切换到py文件所在的目录"><a href="#然后切换到py文件所在的目录" class="headerlink" title="然后切换到py文件所在的目录"></a>然后切换到py文件所在的目录</h4><h4 id="在终端中输入-1"><a href="#在终端中输入-1" class="headerlink" title="在终端中输入"></a>在终端中输入</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pyinstaller -F name.py</span><br></pre></td></tr></table></figure><p><img src="https://user-images.githubusercontent.com/79883276/132129521-12f7646f-4c51-4131-bfa5-a69e5e92fbf0.png" alt="11"></p><p>在生成的dist文件夹中即可看到生成的exe文件<br><img src="https://user-images.githubusercontent.com/79883276/132129525-d087968e-0aa5-4396-949a-a121fb0814bf.png" alt="2"></p><h2 id="2、其他命令"><a href="#2、其他命令" class="headerlink" title="2、其他命令"></a>2、其他命令</h2><h3 id="如果想要更改生成的exe文件的图标也是可以的，"><a href="#如果想要更改生成的exe文件的图标也是可以的，" class="headerlink" title="如果想要更改生成的exe文件的图标也是可以的，"></a>如果想要更改生成的exe文件的图标也是可以的，</h3><h3 id="首先你需要找到一些-ico格式的图片（后期我会在这里更新）"><a href="#首先你需要找到一些-ico格式的图片（后期我会在这里更新）" class="headerlink" title="首先你需要找到一些.ico格式的图片（后期我会在这里更新）"></a>首先你需要找到一些.ico格式的图片（后期我会在这里更新）</h3><h3 id="然后将它复制到-py同目录文件夹下"><a href="#然后将它复制到-py同目录文件夹下" class="headerlink" title="然后将它复制到.py同目录文件夹下"></a>然后将它复制到.py同目录文件夹下</h3><h3 id="在终端中输入-2"><a href="#在终端中输入-2" class="headerlink" title="在终端中输入"></a>在终端中输入</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pyinstaller -F -i ico_name.ico name.py</span><br></pre></td></tr></table></figure><h4 id="ico-name是你的ico图片的名称"><a href="#ico-name是你的ico图片的名称" class="headerlink" title="ico_name是你的ico图片的名称"></a>ico_name是你的ico图片的名称</h4><p><img src="https://user-images.githubusercontent.com/79883276/132129591-7f28ca36-668c-4a89-bd2c-b5d37340ac5b.png" alt="33"></p><h4 id="如果你的爬虫程序没有交互功能，你不想看到运行后的黑框框，你可以在终端中输入"><a href="#如果你的爬虫程序没有交互功能，你不想看到运行后的黑框框，你可以在终端中输入" class="headerlink" title="如果你的爬虫程序没有交互功能，你不想看到运行后的黑框框，你可以在终端中输入"></a>如果你的爬虫程序没有交互功能，你不想看到运行后的黑框框，你可以在终端中输入</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pyinstaller -F -W name.py</span><br></pre></td></tr></table></figure><h2 id="3、ico图标制作网站，可以看看这个：http-www-ico51-cn"><a href="#3、ico图标制作网站，可以看看这个：http-www-ico51-cn" class="headerlink" title="3、ico图标制作网站，可以看看这个：http://www.ico51.cn/"></a>3、ico图标制作网站，可以看看这个：<a href="http://www.ico51.cn/">http://www.ico51.cn/</a></h2><h3 id="ico图标免费下载网站：https-www-aigei-com-icon-class"><a href="#ico图标免费下载网站：https-www-aigei-com-icon-class" class="headerlink" title="ico图标免费下载网站：https://www.aigei.com/icon/class/"></a>ico图标免费下载网站：<a href="https://www.aigei.com/icon/class/">https://www.aigei.com/icon/class/</a></h3><h2 id="4、注意："><a href="#4、注意：" class="headerlink" title="4、注意："></a>4、注意：</h2><h3 id="4-1如果是打包pygame这样的有素材包的py文件，需要将生成后的exe文件和原来的素材包文件放在同目录下才可以运行哦！"><a href="#4-1如果是打包pygame这样的有素材包的py文件，需要将生成后的exe文件和原来的素材包文件放在同目录下才可以运行哦！" class="headerlink" title="4.1如果是打包pygame这样的有素材包的py文件，需要将生成后的exe文件和原来的素材包文件放在同目录下才可以运行哦！"></a>4.1如果是打包pygame这样的有素材包的py文件，需要将生成后的exe文件和原来的素材包文件放在同目录下才可以运行哦！</h3><h3 id="4-2在代码里面尽量不要用import，最好用from…-import…-，因为如果是import的话，在打包的时候，会将整个包都打包到exe里面，会增大生成的exe文件的大小！"><a href="#4-2在代码里面尽量不要用import，最好用from…-import…-，因为如果是import的话，在打包的时候，会将整个包都打包到exe里面，会增大生成的exe文件的大小！" class="headerlink" title="4.2在代码里面尽量不要用import，最好用from…..import….，因为如果是import的话，在打包的时候，会将整个包都打包到exe里面，会增大生成的exe文件的大小！"></a>4.2在代码里面尽量不要用import，最好用from…..import….，因为如果是import的话，在打包的时候，会将整个包都打包到exe里面，会增大生成的exe文件的大小！</h3><h2 id="以上"><a href="#以上" class="headerlink" title="以上"></a>以上</h2><h2 id="今天开学了，以后会加快更新速度的"><a href="#今天开学了，以后会加快更新速度的" class="headerlink" title="今天开学了，以后会加快更新速度的~"></a>今天开学了，以后会加快更新速度的~</h2><h3 id="另外，今天是报道，明天就开学咯，那可不得。。。"><a href="#另外，今天是报道，明天就开学咯，那可不得。。。" class="headerlink" title="另外，今天是报道，明天就开学咯，那可不得。。。"></a>另外，今天是报道，明天就开学咯，那可不得。。。</h3><p><img src="https://img2.baidu.com/it/u=1152013520,3754435810&fm=26&fmt=auto&gp=0.jpg"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> python </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> python </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>C++基础复习题集</title>
       <link href="2021/08/08/C-%E5%9F%BA%E7%A1%80%E5%A4%8D%E4%B9%A0/"/>
       <url>2021/08/08/C-%E5%9F%BA%E7%A1%80%E5%A4%8D%E4%B9%A0/</url>
